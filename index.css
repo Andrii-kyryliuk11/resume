@@ -1,0 +1,108 @@
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+li {
+  margin: 0;
+  padding: 0;
+}
+ul,
+li {
+  list-style: circle;
+}
+a {
+  text-decoration: underline;
+  color: black;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  display: flex;
+  background-color: #f5f7fa;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+.info {
+  background-color: #112441;
+  height: 100%;
+  margin-right: 50px;
+}
+.info * {
+  color: #f5f5f5;
+}
+.about {
+  margin-top: 50px;
+}
+.about_me_text {
+  color: #595959;
+}
+
+.name {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+}
+
+h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.position {
+  font-size: 20px;
+  border-bottom: 1px solid black;
+}
+.experience li,
+.education li {
+  margin-bottom: 15px;
+}
+.work_name,
+.education_item {
+  color: #fb6d3a;
+}
+.work_duration {
+  color: #a8a8a8;
+  margin-left: 30px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.descr {
+  color: #595959;
+}
+.education > li {
+  list-style: none;
+}
+span.work_duration {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 14px;
+  margin-left: 0;
+}
+
+.contacts h2,
+.skills h2,
+.soft_skills h2,
+.languages h2 {
+  text-align: center;
+}
+.contacts li {
+  list-style: none;
+  margin-bottom: 5px;
+}
+.contacts ul {
+  padding-left: 20px;
+}
+.tel,
+.mail {
+  text-decoration: none;
+}
