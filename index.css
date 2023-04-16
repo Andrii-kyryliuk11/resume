@@ -91,6 +91,7 @@ span.work_duration {
 .soft_skills h2,
 .languages h2 {
   text-align: center;
+  margin-top: 10px;
 }
 .contacts li {
   list-style: none;
@@ -102,4 +103,9 @@ span.work_duration {
 .tel,
 .mail {
   text-decoration: none;
+}
+.skills li,
+.soft_skills li,
+.languages li {
+  margin-bottom: 2px;
 }
