@@ -21,9 +21,11 @@ a {
 }
 body {
   font-family: "Montserrat", sans-serif;
+  background-color: #f5f7fa;
 }
 
 .container {
+  border: 1px solid rgba(215, 200, 200, 0.504);
   display: flex;
   background-color: #f5f7fa;
   width: 900px;
@@ -54,26 +56,21 @@ body {
 }
 
 h2 {
-  margin-top: 20px;
-  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 7px;
 }
 .position {
   font-size: 20px;
-  border-bottom: 1px solid black;
 }
 .experience li,
 .education li {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
-.work_name,
-.education_item {
-  color: #fb6d3a;
-}
+
 .work_duration {
   color: #a8a8a8;
   margin-left: 30px;
   margin-top: 5px;
-  margin-bottom: 5px;
 }
 .descr {
   color: #595959;
@@ -85,7 +82,7 @@ span.work_duration {
   display: inline-block;
   font-weight: 400;
   font-size: 16px;
-  margin-bottom: 14px;
+  margin-bottom: 4px;
   margin-left: 0;
 }
 
