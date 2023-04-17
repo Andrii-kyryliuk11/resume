@@ -22,7 +22,7 @@ a {
 body {
   font-family: "Montserrat", sans-serif;
   background-color: #f5f7fa;
-  width: 100%;
+  width: fit-content;
 }
 
 .container {
