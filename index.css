@@ -22,6 +22,7 @@ a {
 body {
   font-family: "Montserrat", sans-serif;
   background-color: #f5f7fa;
+  width: 100%;
 }
 
 .container {
@@ -55,6 +56,10 @@ body {
   line-height: 55px;
 }
 
+.work {
+  padding-left: 40px;
+}
+
 h2 {
   margin-top: 10px;
   margin-bottom: 7px;
@@ -68,12 +73,11 @@ h2 {
 }
 
 .work_duration {
-  color: #a8a8a8;
   margin-left: 30px;
   margin-top: 5px;
 }
 .descr {
-  color: #595959;
+  margin-top: 5px;
 }
 .education > li {
   list-style: none;
